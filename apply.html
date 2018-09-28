@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="DESCRIPTION OF SITE OR PAGE">
+    <meta name="url" content="SITE URL">
+
+    <!-- Document Title -->
+    <title>Apply | CPB Campus</title>
+
+    <!-- Base URL to use for all relative URLs contained within the document -->
+    <base href="SITE URL">
+
+    <link rel="canonical" href="PAGE URL">
+
+    <link href="_assets/css/main.min.css" rel="stylesheet">
+
+    <!-- For IE 10 and below -->
+    <!-- No link, just place a file called favicon.ico in the root directory -->
+
+    <!-- For IE 11, Edge, Chrome, Firefox, Safari, Opera -->
+    <!-- Use http://realfavicongenerator.net/ -->
+    <!-- Place files in root directory -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- FB meta tags -->
+    <meta property="og:url" content="https://example.com/page.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Content Title">
+    <meta property="og:image" content="https://example.com/image.jpg">
+    <meta property="og:description" content="Description Here">
+    <meta property="og:site_name" content="Site Name">
+    <meta property="og:locale" content="en_US">
+    <!-- Facebook: https://developers.facebook.com/docs/sharing/webmasters#markup -->
+    <!-- Open Graph: http://ogp.me/ -->
+
+    <!-- Twitter meta tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@site_account">
+    <meta name="twitter:creator" content="@individual_account">
+    <meta name="twitter:url" content="https://example.com/page.html">
+    <meta name="twitter:title" content="Content Title">
+    <meta name="twitter:description" content="Content description less than 200 characters">
+    <meta name="twitter:image" content="https://example.com/image.jpg">
+    <!-- More info: https://dev.twitter.com/cards/getting-started -->
+    <!-- Validate: https://dev.twitter.com/docs/cards/validation/validator -->
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv-printshiv.googlecode.com/svn/trunk/html5shiv-printshiv.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- a handy skip link for keyboard users -->
+    <a class="skip-link" href="#main">skip to main content</a>
+
+    <header class="header" role="banner">
+      <div class="container">
+        <h1 class="header__logo">
+          <span class="visuallyhidden">CPB Campus</span>
+          <img src="/_assets/images/cpb-campus-logo.svg" alt="CPB Campus logo">
+        </h1>
+      </div>
+    </header>
+
+    <main class="main" id="main" role="main">
+      <div class="container">
+
+        <p class="home__intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto amet aliquid, accusamus nulla, at atque omnis culpa distinctio error quia nesciunt odit nisi neque suscipit repellendus veniam itaque impedit molestias.</p>
+
+        <div class="home__callout">
+          <p>Opening Fall 2018!</p>
+        </div>
+
+        <h2 class="home__subheading">Application</h2>
+
+        <form class="form form--application" action="https://formspree.io/mriley@cpbgroup.com" method="POST" name="campus-application">
+          <ul class="form__list">
+            <li class="form__item">
+              <label class="form__label" for="name">
+                <input class="form__input" type="text" id="name" name="name" placeholder="your name">
+              </label>
+            </li>
+            <li class="form__item">
+              <label class="form__label" for="business">
+                <input class="form__input" type="text" id="business" name="business" placeholder="your business">
+              </label>
+            </li>
+            <li class="form__item">
+              <label class="form__label" for="businessURL">
+                <input class="form__input" type="text" id="businessURL" name="businessURL" placeholder="your business URL">
+              </label>
+            </li>
+            <li class="form__item">
+              <label class="form__label" for="peopleCount">
+                <input class="form__input" type="number" id="peopleCount" name="peopleCount" placeholder="number of people">
+              </label>
+            </li>
+            <li class="form__item">
+              <label class="form__label" for="startDate">
+                <input class="form__input" type="text" id="startDate" name="startDate" placeholder="start date">
+              </label>
+            </li>
+            <li class="form__item">
+              <label class="visuallyhidden" for="reason">Why do you want to be a part of CPB Campus?</label>
+              <textarea class="form__input" name="reason" id="reason" rows="6" placeholder="Tell us what you do and why you want to join."></textarea>
+            </li>
+            <li class="form__item">
+              <button class="form__button" type="submit">submit</button>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+    <script src="<assets/js/main.min.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+    </script>
+  </body>
+</html>

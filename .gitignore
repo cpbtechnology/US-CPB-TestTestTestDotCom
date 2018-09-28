@@ -1,0 +1,13 @@
+design-files
+bower_components
+node_modules
+_site
+.sass-cache
+.jekyll-metadata
+*.map
+*.scssc
+_config/sass-lint-output.html
+_config/.DS_Store
+_assets/src/.DS_Store
+_assets/.DS_Store
+.DS_Store

@@ -1,0 +1,37 @@
+- set up development environment
+- complete `_config.yml` file
+- connect to any social media sites (?)
+- header template
+- footer template
+- homepage template
+- interior page template(s)
+- add site content
+- obfuscate email addresses
+- add schema.org metadata
+- custom 404 page
+- create sitemap
+  - https://www.xml-sitemaps.com/
+- cross-browser testing
+- create Open Graph/Twitter Card image (1200px x 1200px)
+- favicon
+- purchase domain (?)
+- create .htaccess file
+  - URL rewrites
+- accessibility audits
+  - interactive elements navigable via keyboard?
+    - hidden menus?
+  - HTML Codesniffer
+  - Revenge.css bookmarklet
+  - Chrome Dev Tools
+    - Accessibility Audit
+    - aXe
+- SEO audit
+  - http://seositecheckup.com/
+  - http://neilpatel.com/seo-analyzer/
+- performance tests
+  - https://www.webpagetest.org
+  - https://developers.google.com/speed/pagespeed/insights/
+  - YSlow extension
+- google analytics
+- update `_config.yml` file for launch
+- launch
