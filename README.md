@@ -1,5 +1,5 @@
 # CPB Campus
-Staging URL: https://cpb-campus.herokuapp.com/
+Staging URL: https://cpb-testtesttestdotcom.herokuapp.com/
 
 ## Getting Started
 1. Clone the repo to your local machine
