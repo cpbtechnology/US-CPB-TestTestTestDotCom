@@ -1,4 +1,4 @@
-# CPB Campus
+# CPB TestTestTestDotCom
 Staging URL: https://cpb-testtesttestdotcom.herokuapp.com/
 
 ## Getting Started
