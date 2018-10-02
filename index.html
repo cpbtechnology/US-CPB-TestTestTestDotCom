@@ -64,9 +64,12 @@
       <script src="http://html5shiv-printshiv.googlecode.com/svn/trunk/html5shiv-printshiv.js"></script>
     <![endif]-->
     <style type="text/css">
-      main, header {
+      main, header, footer {
         width:600px;
         margin:0 auto;
+      }
+      footer {
+        margin-top:2em;
       }
       * {
         margin-top:1em;
@@ -103,8 +106,8 @@
 
       <form action="https://www.formbackend.com/f/_gqn6y3d" method="post" target="_blank">
 
-        <input type="hidden" id="campaignid" value="" />
-        <input type="hidden" id="contentid" value="" />
+        <input type="hidden" id="campaignid" name="campaignid" value="" />
+        <input type="hidden" id="contentid" name="contentid" value="" />
 
         <input type="text" name="email" default="test@testtesttest.info" onClick="ga('send', 'event', 'email input', 'text entry');" >
         <button type="submit" name="submitButton" value="SignUpButton" onClick="ga('send', 'event', 'sign up', 'click');" >
@@ -138,6 +141,7 @@
       }
       document.getElementById('campaignid').value = getParameterByName("utm_campaign");
       document.getElementById('contentid').value = getParameterByName("utm_content");
+
     </script>
 
   </body>
