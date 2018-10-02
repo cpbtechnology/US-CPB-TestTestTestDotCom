@@ -54,7 +54,6 @@
       prod: {
         options: {
           style: 'compressed',
-          sourcemap: 'none',
           banner: '<%= meta.banner %>'
         },
         files: [{
@@ -68,7 +67,6 @@
       dev: {
         options: {
           style: 'expanded',
-          sourcemap: 'none',
           banner: '<%= meta.banner %>'
         },
         files: [{

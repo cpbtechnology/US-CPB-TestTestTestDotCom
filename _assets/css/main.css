@@ -1,12 +1,4 @@
-/* US-CPB-TestTestTestDotCom v1.0.0 - 2018-09-28-16-46 - Written by CP+B Technology (https://github.com/cpbtechnology/) */
-
-/* US-CPB-TestTestTestDotCom v1.0.0 - 2018-09-28-16-46 - Written by CP+B Technology (https://github.com/cpbtechnology/) */
-
-/* US-CPB-TestTestTestDotCom v1.0.0 - 2018-09-28-16-45 - Written by CP+B Technology (https://github.com/cpbtechnology/) */
-
-/* US-CPB-TestTestTestDotCom v1.0.0 - 2018-09-28-16-44 - Written by CP+B Technology (https://github.com/cpbtechnology/) */
-
-/* US-CPB-Campus v1.0.0 - 2018-09-28-12-24 - Written by CP+B Technology (https://github.com/cpbtechnology/) */
+/* US-CPB-TestTestTestDotCom v1.0.0 - 2018-10-01-21-51 - Written by CP+B Technology (https://github.com/cpbtechnology/) */
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -273,9 +265,9 @@ select {
  *    `input` and others.
  */
 button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+html input[type=button],
+input[type=reset],
+input[type=submit] {
   -webkit-appearance: button;
   /* 2 */
   cursor: pointer;
@@ -314,8 +306,8 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-input[type="checkbox"],
-input[type="radio"] {
+input[type=checkbox],
+input[type=radio] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -327,8 +319,8 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -336,7 +328,7 @@ input[type="number"]::-webkit-outer-spin-button {
  * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
  */
-input[type="search"] {
+input[type=search] {
   -webkit-appearance: textfield;
   /* 1 */
   box-sizing: content-box;
@@ -348,8 +340,8 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -510,7 +502,7 @@ textarea {
 /* Skip link
 -------------------------------------------------------------------*/
 .skip-link {
-  padding: .5rem;
+  padding: 0.5rem;
   position: absolute;
   right: 100%;
   top: 0;
@@ -532,7 +524,7 @@ body {
 }
 
 body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
-  font-size-adjust: .5;
+  font-size-adjust: 0.5;
 }
 
 /*
@@ -548,13 +540,13 @@ h1 {
   font-size: 2.5rem;
   line-height: 1.25;
 }
-@media (min-width: 45em) {
+@media (min-width:45em) {
   h1 {
     font-size: 2.75rem;
     line-height: 1.125;
   }
 }
-@media (min-width: 75em) {
+@media (min-width:75em) {
   h1 {
     font-size: 3rem;
     line-height: 1.05;
@@ -565,13 +557,13 @@ h2 {
   font-size: 1.5rem;
   line-height: 1.15384615;
 }
-@media (min-width: 45em) {
+@media (min-width:45em) {
   h2 {
     font-size: 1.625rem;
     line-height: 1.25;
   }
 }
-@media (min-width: 75em) {
+@media (min-width:75em) {
   h2 {
     font-size: 1.75rem;
     line-height: 1.25;
@@ -584,13 +576,13 @@ h3 {
   line-height: 1.13636364;
   text-transform: lowercase;
 }
-@media (min-width: 45em) {
+@media (min-width:45em) {
   h3 {
     font-size: 1.25rem;
     line-height: 1.25;
   }
 }
-@media (min-width: 75em) {
+@media (min-width:75em) {
   h3 {
     font-size: 1.375rem;
     line-height: 1.25;
@@ -601,13 +593,13 @@ blockquote {
   font-size: 1.25rem;
   line-height: 1.25;
 }
-@media (min-width: 45em) {
+@media (min-width:45em) {
   blockquote {
     font-size: 1.5rem;
     line-height: 1.25;
   }
 }
-@media (min-width: 75em) {
+@media (min-width:75em) {
   blockquote {
     font-size: 1.75rem;
     line-height: 1.25;
@@ -754,7 +746,7 @@ code {
  */
 .clearfix:before,
 .clearfix:after {
-  content: '';
+  content: "";
   /* 1 */
   display: table;
   /* 2 */
@@ -784,8 +776,8 @@ code {
   ========================================================================== */
 @media print {
   *,
-  *:before,
-  *:after {
+*:before,
+*:after {
     background: transparent !important;
     box-shadow: none !important;
     color: #222 !important;
@@ -797,7 +789,7 @@ code {
   }
 
   a,
-  a:visited {
+a:visited {
     text-decoration: underline;
   }
 
@@ -813,13 +805,13 @@ code {
    * Don't show links that are fragment identifiers,
    * or use the `javascript:` pseudo protocol
    */
-  a[href^='#']:after,
-  a[href^='javascript:']:after {
-    content: '';
+  a[href^="#"]:after,
+a[href^="javascript:"]:after {
+    content: "";
   }
 
   pre,
-  blockquote {
+blockquote {
     border: 1px solid #eee;
     page-break-inside: avoid;
   }
@@ -833,7 +825,7 @@ code {
   }
 
   tr,
-  img {
+img {
     page-break-inside: avoid;
   }
 
@@ -844,14 +836,14 @@ code {
   }
 
   p,
-  h2,
-  h3 {
+h2,
+h3 {
     orphans: 3;
     widows: 3;
   }
 
   h2,
-  h3 {
+h3 {
     page-break-after: avoid;
   }
 }
@@ -894,14 +886,14 @@ main a:hover, main a:active {
 
 h1,
 h2 {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 h3,
 h4,
 h5,
 h6 {
-  margin-bottom: .25rem;
+  margin-bottom: 0.25rem;
 }
 
 nav ul {
@@ -922,7 +914,7 @@ blockquote {
 }
 
 small {
-  font-size: .85rem;
+  font-size: 0.85rem;
   margin-bottom: 1rem;
 }
 
@@ -961,23 +953,23 @@ tr:nth-child(even) {
 
 th {
   border-bottom: 1px solid #f00;
-  padding: .5rem;
+  padding: 0.5rem;
   padding-bottom: 0;
   text-align: left;
 }
 
 td {
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .container {
-  padding: 0 .5rem;
+  padding: 0 0.5rem;
   margin-left: auto;
   margin-right: auto;
   max-width: 1040px;
   width: 100%;
 }
-@media (min-width: 60em) {
+@media (min-width:60em) {
   .container {
     max-width: 1200px;
     padding: 0;
@@ -1041,10 +1033,10 @@ td {
   width: 100%;
 }
 
-@media (min-width: 30em) {
+@media (min-width:30em) {
   .xshort,
-  .short,
-  .med {
+.short,
+.med {
     width: 25%;
   }
 
@@ -1068,7 +1060,7 @@ td {
     width: 66.66666%;
   }
 }
-@media (min-width: 60em) {
+@media (min-width:60em) {
   .xshort {
     width: 6.25%;
   }
@@ -1079,103 +1071,5 @@ td {
 
   .xlong {
     width: 75%;
-  }
-}
-a:not([href]),
-a[href="#"],
-a[href=""],
-a[href*="javascript:void(0)"],
-img:not([alt]),
-html:not([lang]),
-html[lang=""],
-meta[charset]:not([charset="UTF-8"]),
-meta[name="viewport"][content*="user-scalable=no"],
-meta[name="viewport"][content*="maximum-scale"],
-meta[name="viewport"][content*="minimum-scale"],
-input:not([id]),
-select:not([id]),
-textarea:not([id]),
-label:not([for]),
-input:not([name]),
-select:not([name]),
-textarea:not([name]),
-form:not([action]),
-form:not([name]):not([id]),
-fieldset > *:first-child:not(legend),
-form button:not([type]),
-button:empty,
-a:empty,
-section > section:first-child,
-article > section:first-child,
-article > article:first-child,
-section > article:first-child,
-section > aside:first-child,
-aside > aside:first-child,
-article > aside:first-child,
-aside > article:first-child,
-aside > section:first-child,
-ol > *:not(li),
-ul > *:not(li),
-dl > *:not(dt):not(dd),
-dt + *:not(dd),
-abbr div,
-b div,
-i div,
-span div,
-em div,
-strong div,
-small div,
-cite div,
-q div,
-code div,
-label div,
-body > header:not([role="banner"]),
-body > div > header:not([role="banner"]),
-body > footer:not([role="contentinfo"]),
-body > div > footer:not([role="contentinfo"]),
-section [role="banner"],
-section [role="contentinfo"],
-article [role="banner"],
-article [role="contentinfo"],
-aside [role="banner"],
-aside [role="contentinfo"],
-#main:not(main):not([role="main"]),
-#footer:not(footer):not([role="contentinfo"]),
-#header:not(header):not([role="banner"]),
-#banner:not(header):not([role="banner"]),
-script[type="text/javascript"],
-link[rel="stylesheet"][type="text/css"] {
-  border: 5px solid #f00;
-}
-
-body:before {
-  background: #666;
-  bottom: 0;
-  color: #ccc;
-  content: 'XS';
-  font-size: .75rem;
-  padding: .25em .5em;
-  position: fixed;
-  right: 0;
-  z-index: 999;
-}
-@media (min-width: 30em) {
-  body:before {
-    content: 'S';
-  }
-}
-@media (min-width: 45em) {
-  body:before {
-    content: 'M';
-  }
-}
-@media (min-width: 60em) {
-  body:before {
-    content: 'L';
-  }
-}
-@media (min-width: 75em) {
-  body:before {
-    content: 'XL';
   }
 }
