@@ -1,0 +1,18 @@
+<!-- views/partials/footer.ejs -->
+    <footer class="footer" role="contentinfo">
+      <span onClick="ga('send','event','footer','click');">&copy;2018</span>
+      <script>
+      function getParameterByName(name, url) {
+      if (!url) url = window.location.href;
+          name = name.replace(/[\[\]]/g, '\\$&');
+          var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+              results = regex.exec(url);
+          if (!results) return null;
+          if (!results[2]) return '';
+          return decodeURIComponent(results[2].replace(/\+/g, ' '));
+      }
+      document.getElementById('campaignid').value = getParameterByName("utm_campaign");
+      document.getElementById('contentid').value = getParameterByName("utm_content");
+
+    </script>
+    </footer>

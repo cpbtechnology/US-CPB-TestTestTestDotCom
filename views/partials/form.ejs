@@ -1,0 +1,22 @@
+<!-- views/partials/form.ejs -->
+
+		<p>If you want to be updated when this idea gets made, enter your email below and we'll reach out when it's live.</p>
+
+		<form action="https://www.formbackend.com/f/_gqn6y3d" method="post" target="_blank">
+
+        <input type="hidden" id="campaignid" namef="campaignid" value="" />
+        <input type="hidden" id="contentid" name="contentid" value="" />
+
+        <input type="text" name="email" default="test@testtesttest.info" onClick="ga('send', 'event', 'email input', 'text entry');" >
+        <button type="submit" name="submitButton" value="SignUpButton" onClick="ga('send', 'event', 'sign up', 'click');" >
+          Sign Me Up!
+        </button>
+
+        <br />
+        
+        <input type="checkbox" value="optin" name="optin" onClick="ga('send', 'event', 'opt in', 'toggle');" checked> 
+        <em>I agree to be contacted for future testing campaigns.</em>
+
+        <br />
+        
+      </form>
