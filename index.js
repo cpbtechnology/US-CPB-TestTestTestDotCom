@@ -9,6 +9,7 @@ app.use('/_assets', express.static(__dirname + '/_assets'));
 
 // set the view engine to ejs
 app.set('view engine', 'ejs');
+app.use(partials());
 
 
 // load in the json file for creating dynamic pages
@@ -70,8 +71,11 @@ for (const [obj, handle] of entries) {
 // our index and confirmation pages need some basic info passed through because the partials use them
 
 app.get("/", function(req, res) {
+	var cc = {
+		"title": "Testing Platform"
+	}
 	res.render('pages/index', {
-    	pagecontent: {"title": "Testing Platform"}
+    	pagecontent: cc
     });
 });
 
