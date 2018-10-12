@@ -13,10 +13,10 @@ app.set('view engine', 'ejs');
 
 
 // load in the json file for creating dynamic pages
-//var fs = require('fs');
-//var content = JSON.parse(fs.readFileSync("pages.json", 'utf8'));
+var fs = require('fs');
+var content = JSON.parse(fs.readFileSync("pages.json", 'utf8'));
 
-
+/*
 var content =
 {
   "item1": {
@@ -55,7 +55,7 @@ var content =
     "url": "TravelObvious"
   }
 }
-
+*/
 
 const entries = Object.entries(content);
 
