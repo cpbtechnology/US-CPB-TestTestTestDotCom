@@ -9,7 +9,7 @@ app.use('/_assets', express.static(__dirname + '/_assets'));
 
 // set the view engine to ejs
 app.set('view engine', 'ejs');
-app.use(partials());
+
 
 
 // load in the json file for creating dynamic pages
