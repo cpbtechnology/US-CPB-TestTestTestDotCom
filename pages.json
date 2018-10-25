@@ -1,9 +1,9 @@
 {
   "item1": {
     "title": "Price Per Like",
-    "h1": "Book By Price Per Like",
-    "h2": "The Best Hotel For Social Pics",
-    "desc": "Up your photo game. Now you'll know the price per night AND price per 'like'.",
+    "h1": "Do you vacation for the gram?",
+    "h2": "These hotels get more likes",
+    "desc": "Find out the price per night AND the price per like for any hotel.",
     "url": "PricePerLike"
   },
   "item2": {
@@ -35,9 +35,9 @@
     "url": "TravelObvious"
   },
   "item6": {
-    "title": "Make your friends hate like you.",
-    "h1": "Take an epic vacation",
-    "h2": "",
+    "title": "Travel Jealousy",
+    "h1": "Make your friends hate like you.",
+    "h2": "Take an epic vacation",
     "desc": "Our mission is to send you on a vacation to make your friends seethe with envy",
     "url": "TravelJealousy2"
   }
