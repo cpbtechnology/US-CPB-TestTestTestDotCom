@@ -33,5 +33,12 @@
     "h2": "And get rewaded for it. ",
     "desc": "We're a travel company that celebrates making obvious travel choices!",
     "url": "TravelObvious"
+  },
+  "item6": {
+    "title": "Make your friends hate like you.",
+    "h1": "Take an epic vacation",
+    "h2": "",
+    "desc": "Our mission is to send you on a vacation to make your friends seethe with envy",
+    "url": "TravelJealousy2"
   }
 }
