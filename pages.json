@@ -47,5 +47,19 @@
     "h2": "These hotels get more likes",
     "desc": "Find out the price per night AND the price per like for any hotel. Book the best hotel rooms for your trips and vacations based on social media likes",
     "url": "PricePerLike2"
+  },
+  "item8": {
+    "title": "It All Starts With A Pill",
+    "h1": "80% of heroin addicts started",
+    "h2": "with prescription opioids",
+    "desc": "It starts with a pill. Learn how prescription opioids can cause heroin addiction",
+    "url": "StartedwithPill"
+  },
+  "item9": {
+    "title": "4 in 5 heroin addiction",
+    "h1": "4 in 5 heroin addicts started",
+    "h2": "with prescription opioids",
+    "desc": "It starts with a pill. Learn how prescription opioids can cause heroin addiction",
+    "url": "StartedwithPill2"
   }
 }
