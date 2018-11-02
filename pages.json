@@ -49,17 +49,17 @@
     "url": "PricePerLike2"
   },
   "item8": {
-    "title": "It All Starts With A Pill",
-    "h1": "80% of heroin addicts started",
-    "h2": "with prescription opioids",
-    "desc": "It starts with a pill. Learn how prescription opioids can cause heroin addiction",
-    "url": "StartedwithPill"
+    "title": "80 Percent of Heroin Addicts",
+    "h1": "80% of heroin addicts started ",
+    "h2": "Mwith prescription opioids",
+    "desc": "It starts with a pill. Learn how prescription opioids can cause heroin addiction.",
+    "url": "80StartedWithPill"
   },
   "item9": {
-    "title": "4 in 5 heroin addiction",
+    "title": "4 in 5 heroin addicts started ",
     "h1": "4 in 5 heroin addicts started",
     "h2": "with prescription opioids",
     "desc": "It starts with a pill. Learn how prescription opioids can cause heroin addiction",
-    "url": "StartedwithPill2"
+    "url": "4in5StartedWithPill"
   }
 }
