@@ -61,5 +61,47 @@
     "h2": "with prescription opioids",
     "desc": "It starts with a pill. Learn how prescription opioids can cause heroin addiction",
     "url": "4in5StartedWithPill"
+  },
+  "item10": {
+    "title": "115 Americans die every day",
+    "h1": "115 Americans die every day",
+    "h2": "after overdosing on opioids",
+    "desc": "Know the facts. Opioids are killing thousands of Americans",
+    "url": "115EveryDay"
+  },
+  "item11": {
+    "title": "1 person dies every 12 minutes",
+    "h1": "1 person dies every 12 minutes",
+    "h2": "due to opioid overdose",
+    "desc": "Know the facts. Opioids are killing thousands of Americans",
+    "url": "1Every12Mins"
+  },
+  "item12": {
+    "title": "4 in 5 heroin addicts started",
+    "h1": "4 in 5 heroin addicts started",
+    "h2": "with prescription opioids",
+    "desc": "Learn how addiction starts at your doctor’s office.",
+    "url": "4In5Addicts"
+  },
+  "item13": {
+    "title": "Big pharma fought to market",
+    "h1": "Big pharma fought to market",
+    "h2": "opioids to kids as young as 12",
+    "desc": "Know the facts. Stop big pharma.",
+    "url": "BigPharmaMarketing"
+  },
+  "item14": {
+    "title": "Big pharma spends 8x more",
+    "h1": "Big pharma spends 8x more",
+    "h2": "money than gun lobbyists",
+    "desc": "Big pharma is spending millions to get America addicted.",
+    "url": "BigPharmaSpending"
+  },
+  "item15": {
+    "title": "1in5 deaths among young adults",
+    "h1": "1in5 deaths among young adults",
+    "h2": "are due to opioids",
+    "desc": "Know the facts. Find out how opioids are killing America’s youth",
+    "url": "1in5YoungDeaths"
   }
 }
