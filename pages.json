@@ -103,5 +103,12 @@
     "h2": "are due to opioids",
     "desc": "Know the facts. Find out how opioids are killing America’s youth",
     "url": "1in5YoungDeaths"
+  },
+  "item16": {
+    "title": "Know The Facts",
+    "h1": "Know the Facts",
+    "h2": "1in5 deaths among young adults are due to opioids while big pharam is spending millions to get America addicted.",
+    "desc": "Find out how opioids are killing America’s youth",
+    "url": "KnowTheFacts"
   }
 }
