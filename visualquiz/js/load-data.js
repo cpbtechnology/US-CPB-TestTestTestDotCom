@@ -1,25 +1,16 @@
 
 const logos = [
 	{
-		image: `ADT_Blue.jpg`,
+		image: `ADT.jpg`,
 		options: [
 			{ name: 'Police Station', correct: false },
 			{ name: 'Stop Sign', correct: false },
 			{ name: 'ADT', correct: true },
-			{ name: 'KK suggestion', correct: false }
+			{ name: 'Ring Security', correct: false }
 		]
 	},
 	{
-		image: `ADT_House.jpg`,
-		options: [
-			{ name: 'Police Station', correct: false },
-			{ name: 'Stop Sign', correct: false },
-			{ name: 'ADT', correct: true },
-			{ name: 'KK suggestion', correct: false },
-		]
-	},
-	{
-		image: `Arm_Hamer.jpg`,
+		image: `Arm&Hammer.jpg`,
 		options: [
 			{ name: 'Tide', correct: false },
 			{ name: 'Arm & Hammer', correct: true },
@@ -37,7 +28,7 @@ const logos = [
 		]
 	},
 	{
-		image: `BK.png`,
+		image: `BK.jpg`,
 		options: [
 			{ name: 'Red Robin', correct: false },
 			{ name: 'Burger King', correct: true },
@@ -45,23 +36,110 @@ const logos = [
 			{ name: 'Chick-fil-A', correct: false },
 		]
 	},
-
-// `BP.png`
-// `Hardees.png`
-// `IKEA.jpg`
-// `JohnDeere.png`
-// `Levis.jpg`
-// `PizzaHut.png`
-// `Red Bull.png`
-// `Snickers.jpg`
-// `SteakNShake.png`
-// `UPS.png`
-
+	{
+		image: `BP.jpg`,
+		options: [
+			{ name: 'Exxon', correct: false },
+			{ name: 'Shell', correct: false },
+			{ name: 'BP', correct: true },
+			{ name: 'Deloitte', correct: false },
+		]
+	},
+	{
+		image: `Hardees.jpg`,
+		options: [
+			{ name: `Hardee's`, correct: true },
+			{ name: 'Starbucks', correct: false },
+			{ name: 'Yelp', correct: false },
+			{ name: 'Johnny Rockets', correct: false },
+		]
+	},
+	{
+		image: `ADT_House.jpg`,
+		options: [
+			{ name: 'Police Station', correct: false },
+			{ name: 'Stop Sign', correct: false },
+			{ name: 'ADT', correct: true },
+			{ name: 'Ring Security', correct: false },
+		]
+	},
+	{
+		image: `IKEA.jpg`,
+		options: [
+			{ name: 'Pfizer', correct: false },
+			{ name: 'Walmart', correct: false },
+			{ name: 'Ikea', correct: true },
+			{ name: 'Tylenol', correct: false },
+		]
+	},
+	{
+		image: `JohnDeere.jpg`,
+		options: [
+			{ name: 'Browning Hunting', correct: false },
+			{ name: 'Caterpillar', correct: false },
+			{ name: 'Milwaukee Bucks', correct: false },
+			{ name: 'John Deere', correct: true },
+		]
+	},
+	{
+		image: `Levis.jpg`,
+		options: [
+			{ name: 'Levis', correct: true },
+			{ name: 'Wrangler', correct: false },
+			{ name: 'JNCO', correct: false },
+			{ name: 'Red Robin', correct: false },
+		]
+	},
+	{
+		image: `PizzaHut.jpg`,
+		options: [
+			{ name: 'Five Guys', correct: false },
+			{ name: 'Red Roof Inn', correct: false },
+			{ name: 'Pizza Hut', correct: true },
+			{ name: 'Village Inn', correct: false },
+		]
+	},
+	{
+		image: `RedBull.jpg`,
+		options: [
+			{ name: 'Monster', correct: false },
+			{ name: 'Red Bull', correct: true },
+			{ name: '5 Hour Energy', correct: false },
+			{ name: 'Chicago Bulls', correct: false },
+		]
+	},
+	{
+		image: `Snickers.jpg`,
+		options: [
+			{ name: 'Snickers', correct: true },
+			{ name: 'Crunch', correct: false },
+			{ name: 'Baby Ruth', correct: false },
+			{ name: 'Butterfinger', correct: false },
+		]
+	},
+	{
+		image: `SteakNShake.jpg`,
+		options: [
+			{ name: 'Whataburger', correct: false },
+			{ name: 'Taco Bell', correct: false },
+			{ name: `Steak'n'Shake`, correct: true },
+			{ name: 'Panda Express', correct: false },
+		]
+	},
+	{
+		image: `UPS.jpg`,
+		options: [
+			{ name: 'Amazon', correct: false },
+			{ name: 'UPS', correct: true },
+			{ name: `FedEx`, correct: false },
+			{ name: 'DHL', correct: false },
+		]
+	}
 ]
 const itemTemplate = `
 <div class="carousel-item" style="background-image: url('{{image}}')">
 	<div class="carousel-caption">
-		<h3>What Does This Logo Mean?</h3>
+		<h3> </h3>
 		<ul class="answer-options">
 			{{#each options}}
 			<li><button data-correct={{correct}} type="button" class="btn btn-primary">{{name}}</button></li>
@@ -85,12 +163,13 @@ const showResultModal = (result) => {
 		score.nWrongGuesses += 1
 		$('#result-modal-title').text('Oops!')
 		$('#result-modal .modal-body').html(`
-			${result.name}: <strong>Nope, try again!</strong>
+			${result.name}? <strong>Nope, try again!</strong>
 			<p>Score so far: ${((score.nTotalGuesses - score.nWrongGuesses) / score.nTotalGuesses * 100).toFixed(0)}%!</p>
 		`)
 		$('#result-modal .modal-footer').html(`
-			<button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+			<button type="button" class="btn btn-primary" data-dismiss="modal">Darn!</button>
 		`)
+		$('#result-modal .modal-footer button').on('click', () => $('#logo-carousel').carousel('next'))
 	}
 	else {
 		$('#result-modal-title').text('Good Work!')
