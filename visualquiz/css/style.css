@@ -1,0 +1,37 @@
+.carousel-caption {
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+ul.answer-options {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	max-width: '50%';
+	padding: 0;
+}
+.answer-options li button {
+	font-size: 24px;
+	margin: 0.5rem;
+}
+
+@media (max-width: 767.98px) {
+	.carousel-caption h3 {
+		font-size: 20px;
+	}
+	.answer-options li button {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 575.98px) {
+	ul.answer-options {
+		flex-direction: column;
+	}
+	.carousel-caption h3 {
+		font-size: 18px;
+	}
+	.answer-options li button {
+		font-size: 12px;
+		width: 90%;
+	}
+}
