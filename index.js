@@ -4,6 +4,7 @@ const app = express();
 const util = require('util')
 
 app.use('/_assets', express.static(__dirname + '/_assets'));
+app.use('/visualquiz', express.static(__dirname + '/visualquiz'));
 
 // set the view engine to ejs
 app.set('view engine', 'ejs');
