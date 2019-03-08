@@ -1,135 +1,16 @@
 {
   "item1": {
-    "title": "Price Per Like",
-    "h1": "Do you vacation for the gram?",
-    "h2": "These hotels get more likes",
-    "desc": "Find out the price per night AND the price per like for any hotel.",
-    "url": "PricePerLike"
+    "title": "Toilet - Fix Your Running Toilet",
+    "h1": "Repair your running toilet",
+    "h2": "in less time, less steps, less cost and without ads",
+    "desc": "See just how easy it can be to repair and fix your running toilet ",
+    "url": "FixRunningToilet"
   },
   "item2": {
-    "title": "Followers Deserve",
-    "h1": "Reward your social followers.",
-    "h2": "Take the trip they want to see",
-    "desc": "Because we're all doing it for the 'likes'. Especially when it comes to travel. ",
-    "url": "TripFollowersDeserve"
-  },
-  "item3": {
-    "title": "Hate-Like",
-    "h1": "Your followers hate-like you",
-    "h2": "Make them jealous of your trip",
-    "desc": "We're a travel company dedicated to helping you make them seethe with envy.",
-    "url": "TravelJealousy"
-  },
-  "item4": {
-    "title": "Ego",
-    "h1": "Boost Your Ego w/ Social Likes",
-    "h2": "Book an 'Ego Trip' with Us!",
-    "desc": "This travel company wants you to take an ego trip you can't get anywhere else.",
-    "url": "TravelEgoTrip"
-  },
-  "item5": {
-    "title": "Be There Get Rewarded.",
-    "h1": "Do obvious travel things",
-    "h2": "And get rewaded for it. ",
-    "desc": "We're a travel company that celebrates making obvious travel choices!",
-    "url": "TravelObvious"
-  },
-  "item6": {
-    "title": "Book Hotels and Plan Travel To Create Jealousy",
-    "h1": "Make your friends hate like you.",
-    "h2": "Plan, book and take an epic vacation",
-    "desc": "Our mission is to send you on a vacation to make your friends seethe with envy. Plan and book the vacation and trip of a lifetime with the best trip and hotel bookings",
-    "url": "TravelJealousy2"
-  },
-  "item7": {
-    "title": "Book Hotels and Plan Vacations By Price Per Like",
-    "h1": "Do you vacation for the gram?",
-    "h2": "These hotels get more likes",
-    "desc": "Find out the price per night AND the price per like for any hotel. Book the best hotel rooms for your trips and vacations based on social media likes",
-    "url": "PricePerLike2"
-  },
-  "item8": {
-    "title": "80 Percent of Heroin Addicts",
-    "h1": "80% of heroin addicts started ",
-    "h2": "with prescription opioids",
-    "desc": "It starts with a pill. Learn how prescription opioids can cause heroin addiction.",
-    "url": "80StartedWithPill"
-  },
-  "item9": {
-    "title": "4 in 5 heroin addicts started ",
-    "h1": "4 in 5 heroin addicts started",
-    "h2": "with prescription opioids",
-    "desc": "It starts with a pill. Learn how prescription opioids can cause heroin addiction",
-    "url": "4in5StartedWithPill"
-  },
-  "item10": {
-    "title": "115 Americans die every day",
-    "h1": "115 Americans die every day",
-    "h2": "after overdosing on opioids",
-    "desc": "Know the facts. Opioids are killing thousands of Americans",
-    "url": "115EveryDay"
-  },
-  "item11": {
-    "title": "1 person dies every 12 minutes",
-    "h1": "1 person dies every 12 minutes",
-    "h2": "due to opioid overdose",
-    "desc": "Know the facts. Opioids are killing thousands of Americans",
-    "url": "1Every12Mins"
-  },
-  "item12": {
-    "title": "4 in 5 heroin addicts started",
-    "h1": "4 in 5 heroin addicts started",
-    "h2": "with prescription opioids",
-    "desc": "Learn how addiction starts at your doctor’s office.",
-    "url": "4In5Addicts"
-  },
-  "item13": {
-    "title": "Big pharma fought to market",
-    "h1": "Big pharma fought to market",
-    "h2": "opioids to kids as young as 12",
-    "desc": "Know the facts. Stop big pharma.",
-    "url": "BigPharmaMarketing"
-  },
-  "item14": {
-    "title": "Big pharma spends 8x more",
-    "h1": "Big pharma spends 8x more",
-    "h2": "money than gun lobbyists",
-    "desc": "Big pharma is spending millions to get America addicted.",
-    "url": "BigPharmaSpending"
-  },
-  "item15": {
-    "title": "1in5 deaths among young adults",
-    "h1": "1in5 deaths among young adults",
-    "h2": "are due to opioids",
-    "desc": "Know the facts. Find out how opioids are killing America’s youth",
-    "url": "1in5YoungDeaths"
-  },
-  "item16": {
-    "title": "Know The Facts",
-    "h1": "Know the Facts",
-    "h2": "1in5 deaths among young adults are due to opioids while big pharma is spending millions to get America addicted.",
-    "desc": "We're testing ideas that can help us combat the fact that opioids are killing America’s youth.",
-    "url": "KnowTheFacts"
-  },
-  "item17": {
-    "title": "Home Security System",
-    "h1": "Home Security Testing Platform",
-    "h2": "You've reached the home security stystem testing platform. We're testing ideas to help develop poducts and make the home security stystem market even better.",
-    "desc": "Home security systems and home security system installation to help protect you, your family, and the things you care about most.",
-    "url": "Security"
-  },
-  "item18": {
-    "title": "Home Security System",
-    "h1": "Home Security Testing Platform",
-    "h2": "You've reached the home security stystem testing platform. We're testing ideas to help develop poducts and make the home security stystem market even better.",
-    "desc": "Home security systems and home security system installation to help protect you, your family, and the things you care about most. We're testing ways in which a home security company can help give security to the homless, find and protect lost childern, help select the safest places to travel, partner with social media apps to better protect you, give security to government workers during the government shutdown, help keep crime down and combat fear, and extend beyond just the home.",
-    "url": "SecurityTesting"
-  },
-  "item19": {
-    "title": "Scottland's First Single Malt",
-    "h1": "Whiskey Concept Testing Platform",
-    "h2": "You've reached the single malt scotch whiskey testing platform. We're testing ideas to help develop poducts and make Single Malt Scotch Whiskey and the whiskey-making process even better.",
-    "desc": "Expanding your horizons, defining success for a new breed of thinkers, discovering unforgettable first. These are the moments you'll be talking about forever. They change the way you view the world. Scottland Scotch Whiskey.",
-    "url": "ScotchWhiskey"
+    "title": "Drywall - Fix A Hole In Your Drywall",
+    "h1": "Patch and repair a hole in drywall",
+    "h2": "in less time, less steps, less cost and without ads",
+    "desc": "See just how easy it can be to repair and fix your drywall and holes in a wall.",
+    "url": "FixHoleInDrywall"
   }
 }
