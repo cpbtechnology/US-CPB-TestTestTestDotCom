@@ -19,5 +19,12 @@
     "h2": "Orignal By Tradition. Express yourself through your Scotch and Single Malt Whiskey",
     "desc": "Scotch whiskey",
     "url": "ScotchWhiskeyTest"
+  },
+  "item4": {
+    "title": "New Tire and Tire Replacement Test",
+    "h1": "Find the perfect tire.",
+    "h2": "New tires without hidden fees. Tires built off trust. New tire shopping made easier and more transparent. New tire and tire service we stand behind.",
+    "desc": "New tires, tire shopping and tire buying made easier and more transparent. Find and buy new tires you can trust.",
+    "url": "NewTires"
   }
  }
