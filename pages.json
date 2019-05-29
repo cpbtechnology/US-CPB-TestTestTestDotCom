@@ -33,5 +33,12 @@
     "h2": "The best light beer to refresh any time, any place, any moment",
     "desc": "Crisp. Light. Cold. Refreshing. Beer. The best light beer to experience refreshement with the chill you can count on. Cold filtered beer for anytime you need a refresh.",
     "url": "LightBeer"
+  },
+  "item6": {
+    "title": "Milk and Alternative Milks",
+    "h1": "New milk and alternative milk innovation testing",
+    "h2": "Finally milks that can replace all the other milks. Try this milk and feel the difference.",
+    "desc": "Milk better than all milks and alternative milks like soy milk, almond milk, oat milk, pea milk, lactose-free milk, whole milk, skimm milk, barista milk.",
+    "url": "Milk"
   }
 }
