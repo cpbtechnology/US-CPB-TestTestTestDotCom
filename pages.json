@@ -87,7 +87,14 @@
     "title": "PizzaValueSearch",
     "h1": "Pizza deals, Pizza discounter, Coupon dealer, Deal decider, Discount den, Deal den, Dinner deals and discounts.",
     "h2": "Savings for pizza, deals for pizza, Discounts for pizza, Pizza promo, Pick-a-promo, pizza promo picker, pizza sale section, pizza for less.",
-    "desc": "Testing platform for pizza deals. We're offering the best deal on your faborite items. Pick the items you want, get a pizza coupon for them.",
+    "desc": "Testing platform for pizza deals. We're offering the best deal on your favorite items. Pick the items you want, get a pizza coupon for them.",
     "url": "PizzaValue"
-  }
+  },
+    "item14": {
+    "title": "Airline RTB Test",
+    "h1": "Airline refocuses on service, Airline pays miles for delays, Airline finds passenger hotels, Airline offers free bag check, Airline offers texts support.",
+    "h2": "Airline offers free phone WiFi. See how this airline is improving multiple areas of their customer service. See how this airline gives miles for flights.",
+    "desc": "Testing platform for airline RTBs. See how this airline works with hotels and Airbnb, Airline gives free bag vouchers, airline offers free browsing wifi.",
+    "url": "AirlineRTBTest"
+  },
 }
