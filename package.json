@@ -1,8 +1,8 @@
 {
   "name": "US-CPB-TestTestTestDotCom",
   "version": "1.0.0",
-  "engines": { 
-    "node": "8.5.0" 
+  "engines": {
+    "node": "8.5.0"
   },
   "author": {
     "name": "CP+B Technology",
