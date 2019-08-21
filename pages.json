@@ -103,5 +103,12 @@
     "h2": "Creative testing stuff",
     "desc": "Creative ads and creative testing ideas and content.",
     "url": "CreativeTesting"
+  },
+    "item16": {
+    "title": "Hotel Booking Testing",
+    "h1": "Book hotel rooms through the best booking platform",
+    "h2": "The hotel booking platform for those who know. Book hotel rooms for your upcoming vacation or work trip.",
+    "desc": "Take the pressure off booking, and use our tools to book the best room available. Hotel and travel booking for vacations and work trips. Get access to the best hotel rooms in Las Vegas, best rooms in New York, best rooms in LA, best places to stay, and best hotel offerings.",
+    "url": "HotelBookingTest"
   }
 }
