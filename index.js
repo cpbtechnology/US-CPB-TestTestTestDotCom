@@ -37,5 +37,13 @@ app.get("/", function(req, res) {
     });
 });
 
+app.get("/redirect", function(req, res) {
+	var cc = {
+		"title": "Redirect"
+	}
+	res.render('pages/redirect', {
+    	pagecontent: cc
+    });
+});
 
 app.listen(port, () => console.log(`CPB TestTestTestDotCom listening on port ${port}!`))
