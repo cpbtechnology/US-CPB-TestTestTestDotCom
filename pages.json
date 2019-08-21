@@ -92,8 +92,8 @@
   },
     "item14": {
     "title": "Airline RTB Test",
-    "h1": "Airline refocuses on service, Airline pays miles for delays, Airline finds passenger hotels, Airline offers free bag check, Airline offers texts support.",
-    "h2": "Airline offers free phone WiFi. See how this airline is improving multiple areas of their customer service. See how this airline gives miles for flights.",
+    "h1": "An airline listens to customers for 100 years to develop an experience that honors time, Airline finds passenger hotels, Airline offers free bag check, Airline offers texts support.",
+    "h2": "An airline honors your time by creating new products and services that improve flying. An airline listens to customers to solve pain points by creating new tools and services. An airline offers free WiFi  for all loyalty members, regardless of status",
     "desc": "Testing platform for airline RTBs. See how this airline works with hotels and Airbnb, Airline gives free bag vouchers, airline offers free browsing wifi.",
     "url": "AirlineRTBTest"
   },
@@ -103,5 +103,12 @@
     "h2": "Creative testing stuff",
     "desc": "Creative ads and creative testing ideas and content.",
     "url": "CreativeTesting"
+  },
+    "item16": {
+    "title": "Hotel Booking Testing",
+    "h1": "Book hotel rooms through the best booking platform",
+    "h2": "The hotel booking platform for those who know. Book hotel rooms for your upcoming vacation or work trip.",
+    "desc": "Take the pressure off booking, and use our tools to book the best room available. Hotel and travel booking for vacations and work trips. Get access to the best hotel rooms in Las Vegas, best rooms in New York, best rooms in LA, best places to stay, and best hotel offerings.",
+    "url": "HotelBookingTest"
   }
 }
