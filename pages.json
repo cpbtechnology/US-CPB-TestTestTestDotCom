@@ -110,5 +110,12 @@
     "h2": "The hotel booking platform for those who know. Book hotel rooms for your upcoming vacation or work trip.",
     "desc": "Take the pressure off booking, and use our tools to book the best room available. Hotel and travel booking for vacations and work trips. Get access to the best hotel rooms in Las Vegas, best rooms in New York, best rooms in LA, best places to stay, and best hotel offerings.",
     "url": "HotelBookingTest"
+  },
+    "item17": {
+    "title": "Holiday Gift Test",
+    "h1": "Want gifts they'll really use? You can't live without them. Here's a gift that's guaranteed to be used this holiday season.",
+    "h2": "Tired of gift disapointment? YOu need a sure bet. Here's a gift you can't mess up this holiday season.",
+    "desc": "In need of a classic gift? A holiday staple for everyone. Here's a gift that helps round out your gifting strategy this season.",
+    "url": "HolidayGiftTest"
   }
 }
