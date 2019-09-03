@@ -36,6 +36,22 @@ app.get("/", function(req, res) {
     	pagecontent: cc
     });
 });
+app.get("/beera", function(req, res) {
+	var cc = {
+		"title": "Testing Platform - Beer A"
+	}
+	res.render('pages/dynamic_beer_a', {
+    	pagecontent: cc
+    });
+});
+app.get("/beerb", function(req, res) {
+	var cc = {
+		"title": "Testing Platform - Beer B"
+	}
+	res.render('pages/dynamic_beer_b', {
+    	pagecontent: cc
+    });
+});
 
 app.get("/redirect", function(req, res) {
 	var cc = {

@@ -1,0 +1,39 @@
+<!-- views/pages/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+</head>
+<body class="container">
+
+<header>
+    <% include ../partials/header %>
+</header>
+
+<main>
+	<p>
+		<strong>You have reached the Testing Platform</strong>
+		<br />
+		<em>Thanks for clicking on that ad.</em>
+	</p>
+
+	<h1><%= pagecontent.h1 %></h1>
+
+    <h2><%= pagecontent.h2 %></h2>
+
+	<p><%= pagecontent.desc %></p>
+    
+    <% include ../partials/form %>  
+
+
+</main>
+
+<footer>
+    <% include ../partials/footer %>
+</footer>
+
+
+
+</body>
+</html>
