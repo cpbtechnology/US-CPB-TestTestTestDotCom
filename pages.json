@@ -136,14 +136,14 @@
     "title": "Light Beer Design Test - Option A",
     "h1": "Thanks for clicking Option A",
     "h2": "Tell us why you selected Option A in the box below.",
-    "desc": "",
+    "desc": "Tell us why you selected Option A in the box below.",
     "url": "LightBeerTestA"
   },
     "item21": {
     "title": "Light Beer Design Test - Option B",
     "h1": "Thanks for clicking Option B",
     "h2": "Tell us why you selected Option B in the box below.",
-    "desc": "",
+    "desc": "Tell us why you selected Option B in the box below.",
     "url": "LightBeerTestB"
   }
 }
