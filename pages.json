@@ -166,5 +166,12 @@
     "h2": "Best underwear = best you, comfy foundation, This underwear brand knows when you feel good on the inside, it shows on the outside, Underwear starts your day, choose the best, This underwear brand helps you begin each day joyfully, This underwear brand is the ultimate innerwear ",
     "desc": "The world is complicated, Your underwear shouldn't be, This underwear brands is the best foundation to you every day, Simple over flashy, Classic styles that last, This underwear brands is the best foundation to you every day, You're wearing underwear, We invented it, This underwear brand's expertise is why it's America's favorite for apparel",
     "url": "UndieStratTest"
+  },
+    "item25": {
+    "title": "Tequila Tag Line Test",
+    "h1": "A famously bold tequila brand that wants you to be the life of the party.",
+    "h2": "Get the world's best, most famous, and favorite tequila brand.",
+    "desc": "Reposado tequila, agave tequila and anjeo tequila. Find the world's best tequila, and best tequila brand. Made for mixing and living in the moment.",
+    "url": "TequilaLineTest"
   }
 }
